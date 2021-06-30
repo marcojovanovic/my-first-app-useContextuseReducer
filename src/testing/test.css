@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.modal{
+  width: 400px;
+  height: 400px;
+  background: orange;
+  color:white;
+}
+
+
+.modal-close{
+
+  transform: translateX(320px);
+  cursor: pointer;
+}
+
+
+.container{
+  width: 30%;
+  margin: auto;
+}
+
+.blog{
+  margin:3rem 0;
+  border: 2px solid orange;
+ 
+  cursor: pointer;
+}

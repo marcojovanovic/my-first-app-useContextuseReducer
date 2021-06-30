@@ -1,0 +1,6 @@
+export const MODAL_OPEN = 'MODAL_OPEN'
+export const MODAL_CLOSE = 'MODAL_CLOSE'
+export const ADD_BLOG = 'ADD_BLOG'
+export const DELETE_BLOG = 'DELETE_BLOG'
+export const SEARCH_BLOG = 'SEARCH_BLOG'
+export const INCREASE_COUNTER = 'INCREASE_COUNTER'

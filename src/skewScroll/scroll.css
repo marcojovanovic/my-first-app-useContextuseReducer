@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.App{
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  pointer-events: none;
+
+
+}
+
+section{
+  position: absolute;
+  top:20px;
+  left:4%;
+  width: 90vw;
+  height: 50vh;
+ /* odavde vuce linija */
+}
+
+/* ovo trazis za skew section */
+
+svg{
+  fill: white;
+  /*transform: rotate(180deg); */
+  overflow: hidden;
+}
+
+
+.wave{
+
+  fill: white;
+ /* transform: rotate(180deg); */
+}
+
+.img-container{
+  margin-left: 40%;
+}
+
+
+.image{
+  margin-bottom: 10rem;
+}
+
+
+.title{
+  margin: 3rem 0;
+  font-size: 50px;
+}
